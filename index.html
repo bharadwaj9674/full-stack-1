@@ -2,11 +2,38 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+        <style>
+            body {
+                padding-top: 70px;
+            }
+            .fixed-header {
+                background-color: bisque;
+                padding: 15px;
+                margin: 0;
+            }
+            .container{
+                background-color:aliceblue;
+            }
+        </style>
     </head>
-    <body>
-        <h2 class="navbar-fixed-top" style="background-color:bisque;">Paragraph</h2>
+    <body>    
+
+        <button class="btn btn-primary">
+            Inbox
+            <span class="badge bg-danger rounded-pill">99+</span>
+        </button>
+
+        <button class="btn bg-success">
+            Open
+        </button>
+        <button class="btn bg-danger">
+            Close
+        </button>
+
+        <nav class="navbar navbar-fixed-top">
+            <h2 class="fixed-header">Paragraph</h2>
+        </nav>
         <div class="container">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae dolorum aut excepturi explicabo maiores at neque itaque sunt ipsum. Beatae ea architecto aliquam, nesciunt corrupti odit placeat nulla consectetur blanditiis.</p>
         </div>
